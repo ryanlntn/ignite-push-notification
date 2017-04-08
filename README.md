@@ -1,6 +1,6 @@
 # Ignite Push Notifications Plugin
 
-This plugin add [react-native-push-notification]() to your [Ignite]() React Native project.
+This plugin add [react-native-push-notification](https://github.com/zo0r/react-native-push-notification) to your [Ignite](https://github.com/infinitered/ignite) React Native project.
 
 ## Usage
 
