@@ -8,8 +8,11 @@ This plugin add [react-native-push-notification](https://github.com/zo0r/react-n
 ```
 $ ignite add push-notification
 ```
-2. Update the configuration at `App/Config/PushConfig.js`.
-3. Start sending push notifications:
+2. Follow manual setup instructions:
+    * [iOS](https://github.com/zo0r/react-native-push-notification#ios-manual-installation)
+    * [Android](https://github.com/zo0r/react-native-push-notification#android-manual-installation)
+3. Update the configuration at `App/Config/PushConfig.js`.
+4. Start sending push notifications:
 ```js
 import PushNotification from 'react-native-push-notification'
 
