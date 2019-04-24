@@ -7,17 +7,17 @@ test('adds the proper npm module and component example', async t => {
   const addModule = sinon.spy()
   const addPluginComponentExample = sinon.spy()
   const exists = sinon.stub().returns(false)
-  const copy = sinon.spy()
+  const write = sinon.spy()
 
   // mock a context
   const context = {
     ignite: { addModule, addPluginComponentExample },
-    filesystem: { exists, copy }
+    filesystem: { exists, write }
   }
 
   await plugin.add(context)
 
   t.true(addModule.calledWith('react-native-push-notification', { link: true }))
   t.true(exists.called)
-  t.true(copy.called)
+  t.true(write.called)
 })
