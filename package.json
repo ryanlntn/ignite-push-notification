@@ -21,14 +21,14 @@
   "url": "https://github.com/ryanlntn/ignite-push-notification",
   "repository": "ryanlntn/ignite-push-notification",
   "devDependencies": {
-    "ava": "^0.18.2",
-    "babel-eslint": "^7.1.1",
-    "np": "^2.12.0",
-    "nyc": "^10.1.2",
-    "sinon": "^1.17.7",
-    "standard": "^8.6.0"
+    "ava": "^2.4.0",
+    "babel-eslint": "^10.0.3",
+    "np": "^5.1.1",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0",
+    "standard": "^14.3.1"
   },
   "dependencies": {
-    "react-native-push-notification": "^2.2.1"
+    "react-native-push-notification": "^3.1.9"
   }
 }
