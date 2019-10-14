@@ -1,7 +1,7 @@
 {
   "name": "ignite-push-notification",
   "description": "An ignite plugin for react-native-push-notification.",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Ryan Linton",
