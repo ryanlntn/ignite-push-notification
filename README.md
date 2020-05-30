@@ -11,7 +11,9 @@ $ ignite add push-notification
 2. Follow manual setup instructions:
     * [iOS](https://github.com/zo0r/react-native-push-notification#ios-manual-installation)
     * [Android](https://github.com/zo0r/react-native-push-notification#android-manual-installation)
-3. Update the configuration at `App/Config/PushConfig.js`.
+3. Update app configuration, depending on your boilerplate: 
+    * [Bowser boilerplate](https://github.com/infinitered/ignite-bowser): `app/services/notifications.js`
+    * [Andross boilerplate](https://github.com/infinitered/ignite-andross): `App/Config/PushConfig.js`
 4. Start sending push notifications:
 ```js
 import PushNotification from 'react-native-push-notification'
